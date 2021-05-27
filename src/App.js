@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => {
-        window.init();
+        window.initAR();
         window.animate();
       }}>Start</button>
     </div >
