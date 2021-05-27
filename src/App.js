@@ -8,7 +8,6 @@ function App() {
       <ARCanvas>
         <DefaultXRControllers />
       </ARCanvas>
-      <h1>Hello</h1>
     </div>
   );
 }
