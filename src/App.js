@@ -1,13 +1,13 @@
 import './App.css';
-// import { ARCanvas, DefaultXRControllers } from '@react-three/xr'
+import { ARCanvas, DefaultXRControllers } from '@react-three/xr'
 
 
 function App() {
   return (
     <div className="App">
-      {/* <ARCanvas>
+      <ARCanvas>
         <DefaultXRControllers />
-      </ARCanvas> */}
+      </ARCanvas>
       <h1>Hello</h1>
     </div>
   );
