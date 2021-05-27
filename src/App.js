@@ -1,13 +1,13 @@
 import './App.css';
-import { ARCanvas } from '@react-three/xr'
+// import { ARCanvas } from '@react-three/xr'
 
 
 function App() {
   return (
     <div className="App">
-      <ARCanvas>
+      {/* <ARCanvas>
 
-      </ARCanvas>
+      </ARCanvas> */}
     </div>
   );
 }
