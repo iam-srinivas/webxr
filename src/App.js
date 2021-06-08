@@ -32,7 +32,9 @@ function App() {
         loading='lazy'
         camera-controls
         autoplay
+        ar-scale="fixed"
         style={{ width: "100vw", height: "80vh" }}
+        id="model-viewer"
       >
       </model-viewer>
       <div style={{ height: "60px", width: "100vw", display: "flex", justifyContent: "center" }}>
