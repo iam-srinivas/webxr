@@ -33,6 +33,8 @@ function App() {
         camera-controls
         autoplay
         ar-scale="fixed"
+        ar-modes="webxr scene-viewer quick-look"
+        environment-image="neutral"
         style={{ width: "100vw", height: "80vh" }}
         id="model-viewer"
       >
@@ -41,7 +43,7 @@ function App() {
 
         <button style={{ margin: "0 auto" }} onClick={handleNext}>
           Next
-    </button>
+        </button>
       </ div>
     </div >
   );
